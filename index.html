@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visa Hosting</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1c01c8357a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header-parent">
+        <div class="header-wrapper">
+            <div class="logo">
+                <img src="images/logo.png" alt="Website Logo" height="auto">
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#"> <span class="icon"><i class="fa-solid fa-globe"></i></span> <span
+                                class="text">Domain</span></a></li>
+                    <li><a href="#"> <span class="icon"><i class="fa-solid fa-server"></i></span> <span
+                                class="text">Hosting</span></a></li>
+                    <li><a href="#"> <span class="icon"><i class="fa-solid fa-envelope"></i></span> <span class="text">
+                                Email & Security</span></a></li>
+                    <li><a href="#"> <span class="icon"><i class="fa-solid fa-globe"></i></span> <span class="text"> Web
+                                Services</span></a></li>
+                    <li><a href="#"> <span class="icon"><i class="fa-brands fa-supportnow"></i></i></span> <span
+                                class="text"> Support</span></a></li>
+                    <li><a href="#"> <span class="icon"><i class="fa-solid fa-file-invoice"></i></span> <span
+                                class="text"> Billing</span></a></li>
+                </ul>
+            </nav>
+            <div class="login">
+                <button class="header-login btn">Login</button>
+            </div>
+            <!-- Hamburger Button -->
+            <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+        <!-- Mobile Nav -->
+        <div class="mobile-nav" id="mobileNav">
+            <ul>
+                <li><a href="#" onclick="closeMobileNav()"> <span class="icon"><i class="fa-solid fa-globe"></i></span> <span class="text">Domain</span></a></li>
+                <li><a href="#" onclick="closeMobileNav()"> <span class="icon"><i class="fa-solid fa-server"></i></span> <span class="text">Hosting</span></a></li>
+                <li><a href="#" onclick="closeMobileNav()"> <span class="icon"><i class="fa-solid fa-envelope"></i></span> <span class="text">Email & Security</span></a></li>
+                <li><a href="#" onclick="closeMobileNav()"> <span class="icon"><i class="fa-solid fa-globe"></i></span> <span class="text">Web Services</span></a></li>
+                <li><a href="#" onclick="closeMobileNav()"> <span class="icon"><i class="fa-brands fa-supportnow"></i></span> <span class="text">Support</span></a></li>
+                <li><a href="#" onclick="closeMobileNav()"> <span class="icon"><i class="fa-solid fa-file-invoice"></i></span> <span class="text">Billing</span></a></li>
+            </ul>
+        </div>
+    </header>
+        
+        <main>
+            <section class="hero-parent">
+                <div class="hero-wrapper">
+                    <div class="hero-content">
+                        <p class="short-heading">
+                            Reliable hosting to make any website
+                        </p>
+                        <h1>
+                            Reliable hosting to make any <span class="style-this">Website</span></h1>
+                        <ul class="feature-list">
+                            <li><i class="fas fa-check-circle"></i> Unmetered Sub Domains, Accounts</li>
+                            <li><i class="fas fa-check-circle"></i> 99% Uptime Guarantee</li>
+                            <li><i class="fas fa-check-circle"></i> 45-Day Money-Back Guarantee</li>
+                        </ul>
+                        <h2>Get all the essentials features Starting at Rs300.00/mo </h2>
+                        <button class="hero-cta btn">Get Started Now</button>
+                    </div>
+                    <div class="hero-img">
+                        <img src="images/hero.svg" alt="Hero Img" width="500">
+                    </div>
+                </div>
+            </section>
+            <section class="domain-parent parent">
+                <div class="domain-wrapper">
+                    <div class="domain-content">
+                        <h2>Find the Perfect <span class="style-this">Domain</span> Name</h2>
+                        <p>Choose a domain that represents your brand and helps people easily find you online.</p>
+                    </div>
+                    <div class="domain-pricing">
+                        <div class="domain-pricing-card">
+                            <h3>.com</h3>
+                            <p class="bold">Starting From</p>
+                            <p class="price"><sup>Rs</sup> 3,099 / year</p>
+                            <a href="#" class="domain-btn btn">Check Availability</a>
+                        </div>
+                        <div class="domain-pricing-card">
+                            <h3>.in</h3>
+                            <p>Starting From</p>
+                            <p class="price"><sup>Rs</sup> 2,338 / year</p>
+                            <a href="#" class="domain-btn btn">Check Availability</a>
+                        </div>
+                        <div class="domain-pricing-card">
+                            <h3>.net</h3>
+                            <p>Starting From</p>
+                            <p class="price"><sup>Rs</sup> 4,680 / year</p>
+                            <a href="#" class="domain-btn btn">Check Availability</a>
+                        </div>
+                        <div class="domain-pricing-card">
+                            <h3>.store</h3>
+                            <p>Starting From</p>
+                            <p class="price"><sup>Rs</sup> 665 / year</p>
+                            <a href="#" class="domain-btn btn">Check Availability</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="domain-addon-parent parent">
+                <div class="wrapper-domain-addon">
+                    <div class="domain-addon-content">
+                        <h2>Get Free Add-ons with Every <span class="style-this">Domain </span>Registration</h2>
+                    </div>
+                    <div class="domain-addon-cards">
+                        <div class="domain-addon-card">
+                            <div class="icon">
+                                <img src="images/personal.png" alt="Email Accounts" width="50">
+                            </div>
+                            <h3>Free Email Accounts</h3>
+                            <p>Get 2 personalized emails like mail@yourdomain.com
+                                with spam & virus protection.</p>
+                        </div>
+                        <div class="domain-addon-card">
+                            <div class="icon">
+                                <img src="images/domain.png" alt="Domain Forwarding" width="50">
+                            </div>
+                            <h3>Domain Forwarding</h3>
+                            <p>Redirect your domain to any website for free, with optional masking.</p>
+                        </div>
+                        <div class="domain-addon-card">
+                            <div class="icon">
+                                <img src="images/domain(1).png" alt="DNS Management" width="50">
+                            </div>
+                            <h3>DNS Management</h3>
+                            <p>Manage your domain’s DNS anytime with our secure, global service.</p>
+                        </div>
+                        <div class="domain-addon-card">
+                            <div class="icon">
+                                <img src="images/http.png" alt="Domain Theft Protection" width="50">
+                            </div>
+                            <h3>Domain Theft Protection</h3>
+                            <p>Keep your domain safe from unauthorized transfers.</p>
+                        </div>
+                        <div class="domain-addon-card">
+                            <div class="icon">
+                                <img src="images/send.png" alt="Free Email Forwarders" width="50">
+                            </div>
+                            <h3>Free Email Forwarders</h3>
+                            <p>Automatically forward emails to your existing accounts.</p>
+                        </div>
+                        <div class="domain-addon-card">
+                            <div class="icon">
+                                <img src="images/app.png" alt="Easy Control Panel" width="50">
+                            </div>
+                            <h3>Easy Control Panel</h3>
+                            <p>Manage domains, emails, and renewals in one intuitive dashboard.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="benefit-parent parent">
+                <div class="wrapper-benefit">
+                    <div class="setup">
+                        <div class="setup-content">
+                            <h2>Quick And Easy To <span class="style-this">Setup</span></h2>
+                            <p>No gurus needed here! Easily setup your website on our high-speed private cloud without
+                                any
+                                previous or technical knowledge required. Manage all of your content, emails, and
+                                domains
+                                right inside of our platform. Build dynamic online stores secured by free and automatic
+                                SSL
+                                that rank higher in search engines! </p>
+                            <button class="setup-btn btn">Learn More</button>
+                        </div>
+                        <div class="setup-img">
+                            <img src="images/setup.png" alt="Setup Image" width="500">
+                        </div>
+                    </div>
+                    <div class="performance">
+                        <div class="performance-img">
+                            <img src="images/performance.svg" alt="performance Image" width="500">
+                        </div>
+                        <div class="performance-content">
+                            <h2>Your Website 20x <span class="style-this">Faster</span></h2>
+                            <p>People Don't Visit Slow Websites. Recall the last slow website you visited. How would you
+                                describe that experience? A slow website is not only annoying but damaging to your
+                                search engine results and reputation. We're committed to delivering blazing fast load
+                                times for websites of all sizes! </p>
+                            <button class="performance-btn btn">Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-parent parent">
+                <div class="wrapper-contact">
+                    <div class="contact-content">
+                        <p class="short-heading">
+                            Contact Us
+                        </p>
+                        <h2>Any query ? <span class="style-this">let's talk</span></h2>
+                        <p>Any questions or topics you'd like to discuss? Feel free to share your thoughts, and let's
+                            engage
+                            in a conversation. I'm here to help and chat with you.</p>
+                        <button class="contact-btn btn">Support Center</button>
+                    </div>
+                    <div class="contact-details">
+                        <div class="contact-info">
+                            <span class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </span>
+                            <a href="mailto:hammadsiddique352@gmail.com"
+                                class="contact-text">hammadsiddique352@gmail.com</a>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </span>
+                            <a href="tel:923173466213" class="contact-text">(+92)317-3466-213</a>
+                        </div>
+                        <div class="contact-info">
+                            <span class="contact-icon">
+                                <i class="fas fa-map"></i>
+                            </span>
+                            <a href="#" class="contact-text">Abbottabad Supply</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="testimonials-parent parent">
+                <div class="testimonials-wrapper">
+                    <div class="testimonial-content">
+                        <h2>Hear from happy <span class="style-this">customers</span></h2>
+                    </div>
+                    <div class="testimonial-cards">
+                        <div class="testimonial-card">
+                            <div class="testimonial-info">
+                                <div class="testimonial-img">
+                                    <img src="images/test-1.jpg" alt="testimonial image">
+                                </div>
+                                <div class="testimonial-name">
+                                    <h3>David Thompson</h3>
+                                    <p class="designation">Marketing Manager</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-disc">
+                                <p>I needed a reliable domain and hosting service for my company website, and they
+                                    delivered
+                                    exactly what I was looking for. The setup was fast, the platform is easy to manage,
+                                    and
+                                    their customer support is always responsive when needed.</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-info">
+                                <div class="testimonial-img">
+                                    <img src="images/test-3.jpg" alt="testimonial image">
+                                </div>
+                                <div class="testimonial-name">
+                                    <h3>James Walker</h3>
+                                    <p class="designation">Startup Founder</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-disc">
+                                <p>Setting up my website was easier than I expected. Their hosting service is fast and
+                                    stable, and the control panel is very simple to use. I appreciate how smoothly
+                                    everything works, especially for someone who doesn’t have a strong technical
+                                    background.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="testimonial-card">
+                            <div class="testimonial-info">
+                                <div class="testimonial-img">
+                                    <img src="images/test-2.jpg" alt="testimonial image">
+                                </div>
+                                <div class="testimonial-name">
+                                    <h3>Emily Carter</h3>
+                                    <p class="designation">Business Consultant</p>
+                                </div>
+                            </div>
+                            <div class="testimonial-disc">
+                                <p>The team made the entire process simple and stress-free. From registering my domain
+                                    to
+                                    setting up hosting, everything was handled professionally. Their support was quick
+                                    and
+                                    helpful whenever I had questions. I would definitely recommend their services to
+                                    anyone
+                                    starting a new website.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <footer class="footer-parent parent">
+                <div class="footer-wrapper">
+                    <div class="footer-content">
+                        <div class="footer-info">
+                            <img src="images/logo.png" alt="Website Logo">
+                            <p>Visa Hosting offers reliable web hosting and domain registration services with plans
+                                suited
+                                for personal and business websites. With a focus on performance, security, and
+                                user-friendly
+                                management, Visa Hosting ensures smooth website management and 24/7 support.</p>
+                        </div>
+                        <div class="footer-domain">
+                            <h3>Domain</h3>
+                            <ul>
+                                <li><a href="#">Domain Registration</a></li>
+                                <li><a href="#">Domain Transfer</a></li>
+                                <li><a href="#">Domain Renewal</a></li>
+                                <li><a href="#">Domain Privacy</a></li>
+                            </ul>
+                        </div>
+                        <div class="useful">
+                            <h3>Useful Links</h3>
+                            <ul>
+                                <li><a href="#">Hosting Plans</a></li>
+                                <li><a href="#">Email Services</a></li>
+                                <li><a href="#">SSL Certificates</a></li>
+                                <li><a href="#">Support Center</a></li>
+                            </ul>
+                        </div>
+                        <div class="support">
+                            <h3>Support</h3>
+                            <ul>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Community</a></li>
+                                <li><a href="#">Feedback</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-contact">
+                            <h3>Contact Us</h3>
+                            <div class="footer-contact-details">
+                                <div class="contact-info">
+                                    <a href="mailto:hammadsiddique352@gmail.com"
+                                        class="contact-text">hammadsiddique352@gmail.com</a>
+                                </div>
+                                <div class="contact-info">
+                                    <a href="tel:923173466213" class="contact-text">(+92)317-3466-213</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom">
+                        <p>&copy; 2024 Visa Hosting. All rights reserved. Designed by Hammad</p>
+                    </div>
+                </div>
+            </footer>
+        </main>
+<script>
+        const hamburger = document.getElementById('hamburger');
+        const mobileNav = document.getElementById('mobileNav');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            mobileNav.classList.toggle('open');
+        });
+
+        function closeMobileNav() {
+            hamburger.classList.remove('active');
+            mobileNav.classList.remove('open');
+        }
+    </script>
+</body>
+
+</html>

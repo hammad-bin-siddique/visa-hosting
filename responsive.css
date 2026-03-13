@@ -1,0 +1,135 @@
+@media screen and (max-width: 768px) {
+  .hero-parent {
+    padding: 8em 1em 3em 1em;
+  }
+  .parent {
+    padding: var(--parent-padding-mobile);
+  }
+  .hero-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-img {
+    width: 100%;
+    height: auto;
+    flex-grow: grow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .domain-pricing-card,
+  .domain-addon-card {
+    padding: 1em;
+    flex: 1 1 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+  .domain-addon-content {
+    text-align: center;
+  }
+  .domain-pricing,
+  .domain-addon-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .setup {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+    width: 100%;
+  }
+  .setup-img img,
+  .performance-img img {
+    width: 100%;
+    height: auto;
+  }
+  .performance {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  .wrapper-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+  }
+  .contact-info {
+    display: flex;
+    width: 100%;
+  }
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    justify-content: flex-start;
+  }
+  .testimonial-cards,
+  .testimonial-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .testimonial-card {
+    padding: 1em;
+    flex: 1 1 100%;
+  }
+  .testimonial-content {
+    text-align: center;
+  }
+
+  .footer-parent {
+    padding: 3em 1em 1em 1em !important;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-contact-details {
+    margin-top: 18px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .contact-info {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .footer-bottom p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .menu {
+    display:none;
+  }
+  .login {
+    display:none;
+  }
+
+ 
+  .hamburger {
+    display: flex;
+  }
+
+
+  .mobile-nav {
+    display: block;
+  }
+}
