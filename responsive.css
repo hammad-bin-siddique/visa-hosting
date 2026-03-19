@@ -110,26 +110,39 @@
   }
 }
 @media screen and (max-width: 1024px) {
-  .header-wrapper{
+  .header-wrapper {
     display: flex;
+    position: relative;
     justify-content: space-between;
     align-items: center;
   }
 
   .menu {
-    display:none;
+    display: none;
   }
   .login {
-    display:none;
+    display: none;
   }
 
- 
   .hamburger {
     display: flex;
   }
 
-
   .mobile-nav {
     display: block;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    max-height: 0;
+    overflow: hidden;
+    background: var(--gradient-primary);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12.6px);
+    -webkit-backdrop-filter: blur(12.6px);
+    z-index: 99;
+    transition:
+      max-height 0.4s ease,
+      padding 0.3s ease;
   }
 }
