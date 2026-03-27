@@ -16,7 +16,10 @@
     width:fit-content;
   }
   .hero-content > h1{
-    font-size:35px;
+    font: size 40px;
+  }
+  .hero-content > h2{
+    font-size:30px;
   }
   .hero-img {
     width: 100%;
